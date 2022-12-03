@@ -134,10 +134,10 @@
           </div>
         </div>
         <div id="discount">
-          <div><h3>Discount:</h3></div>
-          <div><h3 id="disprice">00</h3></div>
+          <!-- <div><h3>Discount:</h3></div> -->
+          <!-- <div><h3 id="disprice">00</h3></div> -->
         </div>
-        <hr id="dishr" />
+        <!-- <hr id="dishr" /> -->
         <div id="newprice">
           <div id="pay"><h3>Price to pay:</h3></div>
           <div><h3 id="couponprice">00</h3></div>
@@ -187,28 +187,28 @@
   box4.id = "box4";
   
 
-  let name = document.createElement("h3");
-  name.innerText = details.name;
+  let name = document.createElement("p");
+  name.innerText = "Name:  "+ details.name;
   name.id = "name";
 
-  let mob = document.createElement("h3");
-  mob.innerText = details.mobile;
+  let mob = document.createElement("p");
+  mob.innerText ="Mobile number:  "+ details.mobile;
   mob.id = "mobile";
 
-  let pincode = document.createElement("h3");
-  pincode.innerText = details.pincode;
+  let pincode = document.createElement("p");
+  pincode.innerText = "Details:  "+details.pincode;
   pincode.id = "pincode";
 
-  let city = document.createElement("h3");
-  city.innerText = details.city;
+  let city = document.createElement("p");
+  city.innerText ="City:  "+ details.city;
   city.id = "cities";
 
-  let state = document.createElement("h3");
-  state.innerText = details.state;
+  let state = document.createElement("p");
+  state.innerText = "State:  "+details.state;
   state.id = "state";
 
-  let flat = document.createElement("h3");
-  flat.innerText = details.flat;
+  let flat = document.createElement("p");
+  flat.innerText = "Flate:  "+details.flat;
   flat.id = "flat";
 
   box4.append(name,mob,pincode,city,state,flat);

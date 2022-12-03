@@ -367,11 +367,12 @@ hr {
 
 #bottom {
     display: flex;
+   
 }
 
 #bottom-left {
-    width: 40%;
-    padding-left: 10px;
+    width: 100%;
+    padding-left: 110px;
     /* background-color: red; */
 }
 
@@ -434,14 +435,20 @@ hr {
 
 
 #box4 {
-    width: 90%;
+    width: 100%;
     background-color: #F0F1F7;
-    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 8px;
+    /* text-align: center; */
 
 }
 
 #box4 :nth-child(1) {
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 1px;
 }
 
 #box5 {
@@ -501,12 +508,12 @@ hr {
     margin-left: 30%;
     margin-top: -4px;
 }
-#cities{
+/* #cities{
     /* margin-left:500px; */
-    padding-left: 38px;
+    /* padding-left: 38px;
     margin-top: -2px;
    
-}
+} */ 
 #discount {
     /* background-color: red; */
     justify-content: space-between;
